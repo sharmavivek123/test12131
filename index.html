@@ -1,17 +1,93 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Dummy Website</title>
-    <style>
-        body { font-family: Arial; background: #f2f2f2; text-align: center; padding-top: 50px; }
-        h1 { color: #333; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Praveen Electricals</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <script src="scripts/main.js"></script>
 </head>
 <body>
-    <h1>Welcome to My Dummy Website!</h1>
-    <p>This is a simple HTML page hosted with my GoDaddy domain.</p>
+  
+  <!-- Navbar -->
+  <header class="navbar">
+  <div class="container header-container">
+    <h1 class="site-title">Praveen Electricals</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#frontpage">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <!-- Frontpage Section -->
+  <section class="frontpage" id="frontpage">
+    <div class="container">
+      <div class="frontpage-img-wrapper">
+        <img src="images/frontpage.png" alt="Front Page Image" class="frontpage-img" />
+        <div class="frontpage-text-overlay">
+          <h2>Reliable Electrical Services</h2>
+          <p>Residential & Commercial | Certified & Experienced</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="images/service.png" alt="Service 1" class="service-img">
+          <h3>Wiring & Repairs</h3>
+          <p>We provide complete wiring and repair solutions for homes and offices.</p>
+        </div>
+        <div class="card">
+          <img src="images/service1.png" alt="Service 2" class="service-img">
+          <h3>Installation</h3>
+          <p>Expert installation of fans, lights, appliances, fuse boxes and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <img src="images/about.png" alt="About Image" class="about-img">
+        <div class="about-text">
+          <p>With over 10 years of experience, Praveen Electricals delivers top-notch electrical services across the city. Customer satisfaction and safety are our priorities.</p>
+          <p>We specialize in residential and commercial electrical work, ensuring all installations meet safety standards and regulations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p>📞 <a href="tel:+919123456789">09887157316, 09887059606</a></p>
+        <p>📧 <a href="mailto:mukeshvish.pee@email.com">mukeshvish.pee@email.com</a></p>
+        <p>📍 Available across the city for all electrical needs</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Praveen Electricals. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
-
